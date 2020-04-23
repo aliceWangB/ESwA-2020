@@ -85,7 +85,7 @@ for stock in keys_stocks:
     
     count = count + 1
     
-    pickle.dump(Results_VAR, open('Results\\Results_Log_Return_Stan\\Results_VAR_' + stock + '.pkl', 'wb'))
+    pickle.dump(Results_VAR, open('Results\\VAR\\Results_VAR_' + stock + '.pkl', 'wb'))
 
 
 
