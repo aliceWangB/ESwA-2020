@@ -209,7 +209,7 @@ for model in keys_stocks:
     Results_NICE['Table 1']['MSE']              = mse_test
     Results_NICE['Table 1']['Num_Samp']         = num_samp_pred
     
-    pickle.dump(Results_NICE, open('Results\\Results_Log_Return_Stan\\Results_NICE_' + model + '.pkl', 'wb'))
+    pickle.dump(Results_NICE, open('Results\\NICE\\Results_NICE_' + model + '.pkl', 'wb'))
    
 
 
