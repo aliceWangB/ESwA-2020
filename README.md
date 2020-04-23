@@ -5,3 +5,4 @@ This GitHub repository has the Python code, Data, and Results reported on the pa
 kernel adaptive filtering within a stock market interdependence approach". 
 
 For more information, please visit the following GitHub page https://segarciave.github.io/stock_returns_prediction.
+DOI: https://doi.org/10.5281/zenodo.3764212
