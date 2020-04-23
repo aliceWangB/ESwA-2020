@@ -28,12 +28,12 @@ tic = time.time()
 #                        Importing Traning and Testing samples
 #==============================================================================
 crr_wd = os.getcwd()
-data_dir_trte  = os.path.join(crr_wd,'Data\\3_Train_Test\\Log_Return_Stan')
+data_dir_trte  = os.path.join(crr_wd,'Data')
 
 TrainTest = {}
 for trte_stock in listdir(data_dir_trte):
     key_df = trte_stock.split('.')[0].split('Stock_')[1]
-    TrainTest[key_df] = pickle.load(open('Data\\3_Train_Test\\Log_Return_Stan\\' + str(trte_stock), 'rb'))
+    TrainTest[key_df] = pickle.load(open('Data\\' + str(trte_stock), 'rb'))
 
 keys_stocks = list(TrainTest.keys())
 
