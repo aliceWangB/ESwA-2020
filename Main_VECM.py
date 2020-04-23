@@ -83,6 +83,6 @@ for stock in keys_stocks:
     
     count = count + 1
     
-    pickle.dump(Results_VECM, open('Results\\Results_Log_Return_Stan\\Results_VECM_' + stock + '.pkl', 'wb'))
+    pickle.dump(Results_VECM, open('Results\\VECM\\Results_VECM_' + stock + '.pkl', 'wb'))
 
 
