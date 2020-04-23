@@ -168,5 +168,5 @@ for model in keys_stocks:
     Results_Proposal['Table 1']['Labs_Dicti_Ticks'] = Tik_labs
     
 
-    pickle.dump(Results_Proposal, open('Results\\Results_Log_Return_Stan\\Results_Proposal_' + model + '.pkl', 'wb'))
+    pickle.dump(Results_Proposal, open('Results\\Proposal\\Results_Proposal_' + model + '.pkl', 'wb'))
      
