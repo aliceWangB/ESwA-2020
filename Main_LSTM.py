@@ -109,7 +109,7 @@ for stock in keys_stocks:
     Results_LSTM['Setup']['Neurons']       = n
     Results_LSTM['Setup']['Epochs']        = e
     
-    pickle.dump(Results_LSTM, open('Results\\Results_Log_Return_Stan\\Results_LSTM_' + stock + '.pkl', 'wb'))
+    pickle.dump(Results_LSTM, open('Results\\LSTM\\Results_LSTM_' + stock + '.pkl', 'wb'))
 
 
 toc = time.time()
